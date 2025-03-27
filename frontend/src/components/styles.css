@@ -1,0 +1,21 @@
+.weather-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .chart-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+    color: white;
+  }
+  
