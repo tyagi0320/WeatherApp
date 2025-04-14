@@ -1,21 +1,69 @@
-.weather-container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .weather-icon {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .chart-container {
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-  }
-  
-  .card {
-    background: linear-gradient(135deg, #6dd5ed, #2193b0);
-    color: white;
-  }
-  
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.theme-light {
+  background-color: #f7f9fc;
+  color: #222;
+}
+
+.theme-dark {
+  background-color: #1a1a1a;
+  color: #eee;
+}
+
+.app-wrapper {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.weather-card {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  color: #000;
+}
+
+.theme-dark .weather-card {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: #fff;
+}
+
+input.form-control,
+.btn {
+  border-radius: 10px;
+}
+
+.weather-icon {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+}
+/* Chart container styling */
+.chart-container {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h5 {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+/* Card Shadow for charts */
+.chart-container .line-chart {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

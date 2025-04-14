@@ -1,12 +1,19 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap styles
-import WeatherApp from "./components/WeatherApp"; // Import WeatherApp component
+import React, { useState, useEffect } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import WeatherApp from "./components/WeatherApp";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  // Apply theme to <body>
+  useEffect(() => {
+    document.body.className = "";
+    document.body.classList.add(`theme-${theme}`);
+  }, [theme]);
+
   return (
-    <div className="container mt-4">
-      <h1 className="text-center mb-4">Weather Forecast</h1>
-      <WeatherApp />
+    <div>
+      <WeatherApp theme={theme} setTheme={setTheme} />
     </div>
   );
 }
