@@ -1,7 +1,6 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap styles
 
 Chart.register(...registerables);
 
@@ -89,30 +88,15 @@ const ForecastChart = ({ forecastData }) => {
   };
 
   return (
-    <div className="container mt-4">
-      {/* Card for Temperature Trend */}
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title text-center">📈 7-Day Temperature Trend</h5>
-          <Line data={temperatureData} options={chartOptions} />
-        </div>
-      </div>
-
-      {/* Card for Humidity Trend */}
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title text-center">💧 7-Day Humidity Trend</h5>
-          <Line data={humidityData} options={chartOptions} />
-        </div>
-      </div>
-
-      {/* Card for Wind Speed Trend */}
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title text-center">💨 7-Day Wind Speed Trend</h5>
-          <Line data={windSpeedData} options={chartOptions} />
-        </div>
-      </div>
+    <div className="chart-container">
+      <h5 className="text-center mt-3">📈 7-Day Temperature Trend</h5>
+      <Line data={temperatureData} options={chartOptions} />
+      
+      <h5 className="text-center mt-5">💧 7-Day Humidity Trend</h5>
+      <Line data={humidityData} options={chartOptions} />
+      
+      <h5 className="text-center mt-5">💨 7-Day Wind Speed Trend</h5>
+      <Line data={windSpeedData} options={chartOptions} />
     </div>
   );
 };
