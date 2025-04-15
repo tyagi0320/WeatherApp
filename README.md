@@ -1,11 +1,11 @@
 
-# Weather Forecast App 🌤️
+# Weather Forecast App 
 
 A modern, interactive weather forecasting web application built with **React**, **Chart.js**, and **Express**. This app fetches weather data from the **VisualCrossing API** and provides users with current weather conditions and a 7-day weather forecast, all presented in visually appealing charts.
 
 ---
 
-## Features 🚀
+## Features 
 
 - **Current Weather**: Displays temperature, humidity, and wind speed for a specified city.
 - **7-Day Weather Forecast**: Visualize the 7-day temperature trend using a line chart.
@@ -15,13 +15,13 @@ A modern, interactive weather forecasting web application built with **React**, 
 
 ---
 
-## Demo 🌍
+## Demo 
 
-You can see the live demo of the app by visiting [Weather Forecast App](https://your-app-link.com) (if hosted).
+You can see the live demo of the app by visiting [Weather Forecast App](https://your-app-link.com).
 
 ---
 
-## Technologies Used 🛠️
+## Technologies Used 
 
 - **Frontend**:
   - React.js
@@ -37,7 +37,7 @@ You can see the live demo of the app by visiting [Weather Forecast App](https://
 
 ---
 
-## Installation 🏗️
+## Installation 
 
 ### 1. Clone the Repository
 
@@ -100,11 +100,11 @@ The React app will run on `http://localhost:3000`.
 
 ---
 
-## How to Use 🌞
+## How to Use 
 
 1. Once the app is running, you can enter any city name in the search bar.
 2. Click on "Get Weather" to see the current weather details.
-3. Below the weather data, you will find a 7-day temperature trend chart.
+3. Below the weather data, you will find various helpful charts.
 4. Use the **Dark Mode** toggle to switch between light and dark modes.
 
 ---
@@ -121,34 +121,13 @@ Here are some screenshots of the app in action:
 
 ---
 
-## Contributing 🤝
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-1. Fork the repo
-2. Create your feature branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a pull request
-
----
-
-## License 📄
+## License 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Acknowledgements 🎉
-
-- **VisualCrossing API**: For providing the weather data.
-- **Chart.js**: For the easy-to-use charting library.
-- **React**: For powering the frontend of the app.
-- **Bootstrap**: For quick and responsive UI development.
-
----
-
 ## Contact 📬
 
-- **GitHub**: [@your-username](https://github.com/your-username)
-- **Email**: your-email@example.com
+- **GitHub**: [@tyagi0320](https://github.com/tyagi0320)
+- **Email**: tharshit03@gmail.com
