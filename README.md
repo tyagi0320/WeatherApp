@@ -127,13 +127,16 @@ Here are some screenshots of the app in action:
 
 ---
 
+## Author
+
+📧 Email: tharshit03@gmail.com  
+🔗 GitHub: [@tyagi0320](https://github.com/tyagi0320)
+
+---
+
 ## License 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Contact 📬
-
-- **GitHub**: [@tyagi0320](https://github.com/tyagi0320)
-- **Email**: tharshit03@gmail.com
