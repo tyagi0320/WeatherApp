@@ -1,11 +1,11 @@
 
-# Weather Forecast App 🌤️
+# Weather Forecast App 
 
 A modern, interactive weather forecasting web application built with **React**, **Chart.js**, and **Express**. This app fetches weather data from the **VisualCrossing API** and provides users with current weather conditions and a 7-day weather forecast, all presented in visually appealing charts.
 
 ---
 
-## Features 🚀
+## Features 
 
 - **Current Weather**: Displays temperature, humidity, and wind speed for a specified city.
 - **7-Day Weather Forecast**: Visualize the 7-day temperature trend using a line chart.
@@ -15,13 +15,13 @@ A modern, interactive weather forecasting web application built with **React**, 
 
 ---
 
-## Demo 🌍
+## Demo 
 
 You can see the live demo of the app by visiting [Weather Forecast App](https://your-app-link.com).
 
 ---
 
-## Technologies Used 🛠️
+## Technologies Used 
 
 - **Frontend**:
   - React.js
@@ -37,7 +37,7 @@ You can see the live demo of the app by visiting [Weather Forecast App](https://
 
 ---
 
-## Installation 🏗️
+## Installation 
 
 ### 1. Clone the Repository
 
@@ -100,7 +100,7 @@ The React app will run on `http://localhost:3000`.
 
 ---
 
-## How to Use 🌞
+## How to Use 
 
 1. Once the app is running, you can enter any city name in the search bar.
 2. Click on "Get Weather" to see the current weather details.
@@ -121,7 +121,7 @@ Here are some screenshots of the app in action:
 
 ---
 
-## License 📄
+## License 
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
