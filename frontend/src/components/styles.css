@@ -1,9 +1,12 @@
+/* Reset and base styles */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   transition: background 0.3s, color 0.3s;
+  min-height: 100vh;
 }
 
+/* Light and Dark Themes */
 .theme-light {
   background-color: #f7f9fc;
   color: #222;
@@ -14,16 +17,24 @@ body {
   color: #eee;
 }
 
+/* App Layout */
 .app-wrapper {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto;
   padding: 2rem;
 }
 
+/* Weather Card Styling */
 .weather-card {
   border-radius: 20px;
   background: linear-gradient(135deg, #74ebd5, #9face6);
   color: #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.weather-card:hover {
+  transform: scale(1.01);
 }
 
 .theme-dark .weather-card {
@@ -31,36 +42,64 @@ body {
   color: #fff;
 }
 
+/* Inputs & Buttons */
 input.form-control,
 .btn {
   border-radius: 10px;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
 }
 
+input.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(100, 149, 237, 0.3);
+}
+
+/* Weather Icon */
 .weather-icon {
   height: 80px;
   margin-bottom: 10px;
 }
 
+/* Chart Container */
 .chart-container {
   margin-top: 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 1rem;
-  border-radius: 12px;
-}
-.chart-container {
-  margin-top: 20px;
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
 }
 
-h5 {
+/* For dark/light contrast on charts */
+.theme-light .chart-container {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-dark .chart-container {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Chart headings */
+.chart-container h5 {
   font-size: 1.25rem;
-  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: inherit;
+  text-align: center;
 }
 
+/* Line Chart itself */
 .chart-container .line-chart {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Theme Toggle */
+.theme-toggle h2 {
+  font-weight: 700;
+}
+
+.form-switch .form-check-input {
+  cursor: pointer;
+  transform: scale(1.1);
 }
