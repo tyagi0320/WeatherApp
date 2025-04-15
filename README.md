@@ -114,10 +114,16 @@ The React app will run on `http://localhost:3000`.
 Here are some screenshots of the app in action:
 
 **1. Weather App - Current Weather**
-![Current Weather](https://via.placeholder.com/600x400?text=Current+Weather+Screen)
+![Welcome Window](Screenshots/Screenshot%201.png)  
 
-**2. 7-Day Forecast Chart**
-![Forecast Chart](https://via.placeholder.com/600x400?text=7-Day+Forecast+Chart)
+**2. 7-Day Temperature Trend**
+![Temperature Trend](Screenshots/Screenshot%202.png)
+
+**3. 7-Day Humidity Trend**
+![Humidity Trend](Screenshots/Screenshot%203.png)
+
+**4. 7-Day Wind Speed Trend**
+![Speed Trend](Screenshots/Screenshot%204.png)
 
 ---
 
